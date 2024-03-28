@@ -1,0 +1,31 @@
+h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+
+i{
+    font-size: 10px
+}
+
+.wowzers{
+    font-size: 60px;
+    font-family: "Arial";
+    
+}
+#exception{
+    font-size: 15px;
+    font-family:"monospace";
+    color: maroon
+    
+}
