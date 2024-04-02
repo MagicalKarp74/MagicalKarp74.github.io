@@ -1,14 +1,15 @@
 h2{
-    padding-top: 5px;
-    padding-bottom: 5px;
+
     color: blue;
-    text-align: center;
     font-weight: bold;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+
 }
 
 h1{
-    padding-top: 5px;
-    padding-bottom: 5px;
+
     color: purple;
     text-align: center;
     font-weight: bold;
@@ -26,6 +27,6 @@ i{
 #exception{
     font-size: 15px;
     font-family:"monospace";
-    color: maroon
+    color: yellowgreen
     
 }
