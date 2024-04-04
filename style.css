@@ -1,32 +1,24 @@
-h2{
-
-    color: blue;
-    font-weight: bold;
-    margin: 5%;
-    padding: 5%;
-    border-radius: 5%;
-
-}
 
 h1{
 
-    color: purple;
+    color: red;
     text-align: center;
     font-weight: bold;
+    padding: 5%;
+    font-size: 50px
 }
-
-i{
-    font-size: 10px
-}
-
 .wowzers{
-    font-size: 60px;
     font-family: "Arial";
     
 }
-#exception{
-    font-size: 15px;
-    font-family:"monospace";
-    color: yellowgreen
+#widgettext{
+    font-size: 30px;
+    color: black;
+    text-wrap: stable;
     
+}
+
+#buttonstuff{
+    background-color:red;
+    color:black;
 }
