@@ -1,14 +1,44 @@
+
 h1{
     text-align: center;
     font-weight: bold;
-    padding: 5%;
+    padding: 3%;
     font-size: 60px
 }
-.wowzers{
-    font-family: "Arial";
-    color: lightgreen;
     
+h2{
+    text-align: center;
+    padding: 1%;
+    font-size: 40px;
 }
+h3{
+    text-align:center;
+    font-size: 30px
+}
+
+h4{
+    text-align:center;
+    font-size: 20px;
+}
+
+div{
+    margin: auto;
+    height: 38%;
+    width: 45%;
+}
+
+span{
+    display: flex;
+    vertical-align: top;
+}
+
+img{
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #widgettext{
     font-size: 20px;
     color: black;
