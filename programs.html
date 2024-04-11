@@ -11,7 +11,7 @@
             border-radius:10%;
             padding: 5%;
             width: 38%;
-            border: 3px solid rgb(255, 106, 210);
+            border: 3px solid rgb(158, 106, 255);
             
             
         }
@@ -20,8 +20,28 @@
             flex-wrap: wrap;
             background-color: rgb(152, 163, 255);
         }
+        span{
+            width: 100%;
+            margin: auto;
+        }
     </style>
+
 </head>
+
+<body> 
+
+<span>
+    <a id = "navbar" href = "hobbies.html"><h3> Hobbies </h3></a>
+    <a id = "navbar" href = "index.html"><h3> Home page </h3></a>
+    <a id = "navbar" href = "resume.html"><h3> Resume </h3></a>
+    <a id = "navbar" href = "programs.html"><h3> Programs </h3></a>
+</span>
+
+<span>
+    <h1 style = "margin-left: 32%"> Software Projects </h1>
+</span>
+
+</body>
 
 <body>
 
@@ -32,7 +52,7 @@
         </header>
     <iframe height = "300" width = "400" src = "PygameProjectVideo.mp4"></iframe>
     <a href = "https://github.com/MagicalKarp74/Pygame-Project.git" button id = "buttonstuff"> Link to github repository</a>
-    <a href = "dist/Main.exe" button id = "buttonstuff"> Game executable</a>
+    <a href = "dist.zip" button id = "buttonstuff"> Game executable</a>
     <h4 id = "widgettext">
         This game is reminiscent of games like celeste and mario. You can jump, dash, and wall jump your way through levels. Red squares send you back to the beginning of the level. Purple squares bring you to the next level.
     </h4>
@@ -48,13 +68,13 @@
     <iframe height = "300" width = "400" src = "photo_video.mp4"></iframe>
     <a href = "https://github.com/MagicalKarp74/PhotoGallery.git" button id = "buttonstuff"> Link to github repository</a>
     <h4 id = "widgettext">
-        This is a basic photo editing program that can let you do things to your photos like flip it horizontally/vertically, add a light halo, inverse the colors, and more!
+        This is a basic photo editing program where you can apply different filters to your chosen picture. You can do things to your photos like flip them horizontally/vertically, add a light halo, inverse the colors, and more!
     </h4>
     </div>
 
     <br>
 
-    <div>
+    <div style="width:80%"">
         <header>
             <h2>Pokemon-like RPG</h2> 
         </header>
@@ -68,10 +88,5 @@
 
     
 </body>
-<br>
-<header>
-    <h1><a href = "index.html"> Go back to home page </a></h1> 
-</header>
 
 </html>
-       
