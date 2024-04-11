@@ -1,23 +1,25 @@
+*{
+    font-family: monospace;
+    text-align: center;
+}
+
+
 
 h1{
-    text-align: center;
     font-weight: bold;
     padding: 3%;
     font-size: 60px
 }
     
 h2{
-    text-align: center;
     padding: 1%;
     font-size: 40px;
 }
 h3{
-    text-align:center;
     font-size: 30px
 }
 
 h4{
-    text-align:center;
     font-size: 20px;
 }
 
@@ -39,15 +41,91 @@ img{
     margin-right: auto;
 }
 
+iframe{
+    align-self:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.textborder{
+    -webkit-text-stroke: 2px Black;
+}
+
+
+
 #widgettext{
     font-size: 20px;
     color: black;
     text-wrap: stable;
-    
 }
 
 #buttonstuff{
     display: inline-block;
     background-color:rgb(216, 71, 95);
     color:black;
+}
+
+#navbar{
+    margin:auto;
+}
+
+
+#gallerywrapper {
+    width:640px;
+    height:450px;
+    margin:0 auto;
+    position:relative;
+    font-family:verdana, arial, sans-serif;
+} 
+
+#gallerywrapper #gallery {
+    position:absolute;
+    left:0;
+    top:0;
+    height:450px;
+    width:640px;
+    overflow:hidden;
+    text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+    width:640px; height:900px; 
+    padding-top:10px; 
+    position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+    clear:both; 
+    display:block; 
+    margin:0 auto; 
+    border:0;
+} 
+
+#gallerywrapper #gallery div h3 {
+    padding:10px 0 0 0; 
+    margin:0; 
+    font-size:18px;
+} 
+
+#gallerywrapper #gallery div p {
+    padding:5px 0; 
+    margin:0; 
+    font-size:12px; 
+    line-height:18px;
+} 
+
+#gallery .previous{ 
+    display:inline;
+    float:left;
+    margin-left:80px;
+    text-decoration:none;
+} 
+
+#gallery .next{ 
+    display:inline;
+    float:right;
+    margin-right:80px;
+    text-decoration:none;
 }
