@@ -7,12 +7,36 @@
         body{
             background-color:aquamarine ;
         }
+
+        p {
+            background-image: url("Paint-texture.jpg");
+            background-repeat: repeat;
+            background-clip:unset; 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 80px;
+            text-align: center;
+            font-weight: bold;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+        }
+
         </style>
         <link rel = "stylesheet" href = "style.css">
     </head>
 
+    <span>
+        <a id = "navbar" href = "hobbies.html"><h3> Hobbies </h3></a>
+        <a id = "navbar" href = "index.html"><h3> Home page </h3></a>
+        <a id = "navbar" href = "resume.html"><h3> Resume </h3></a>
+        <a id = "navbar" href = "programs.html"><h3> Programs </h3></a>
+    </span>
+
+
+
+
     <header>
-        <h1>My hobbies</h1>
+        <p class="textborder">My hobbies<p>
     </header>
 
     <body>
@@ -21,23 +45,57 @@
                 <h2> Art </h4>
                 <h4> I've taken art elective courses since 6th grade</h4>
                 <h4> I do a mix of digital and physical art, and post it on social media</h4>
-                <img width="800px" src="https://c8.alamy.com/comp/2G19P8Y/african-american-artist-man-at-art-studio-pointing-fingers-to-camera-with-happy-and-funny-face-good-energy-and-vibes-2G19P8Y.jpg" alt="Funny man painting stuff">
+                <img width="800px" src="Painting.jpg" alt="Funny man painting stuff">
             </div>
 
             <div>
                 <h2> Piano </h4>
                 <h4> I've taken piano lessons since 2nd grade, aka currently 8 years</h4>
                 <h4> I learn classical music with my teachers, print off music I personally like, and have played for a UT judge before</h4>
-                <img src="https://www.learning-mind.com/wp-content/uploads/2017/02/piano-players.jpg" alt="Funny man playing piano">
+                <img src="Piano.jpg" alt="Funny man playing piano">
             </div>
         </span>
     </body>
 
-    <header>
-        <h1><a href = "index.html"> Go back to home page </a></h1>
-    </header>
-
-        
+    <div id="gallerywrapper">
+	    <div id="gallery">
+		    <div id="pic1">
+			    <img src="https://unsplash.it/g/500/350?random" height="350" width="500" alt="Image 1">
+			    <a class="previous" href="#pic5">&lt;</a>
+			    <a class="next" href="#pic2">&gt;</a>
+			    <h3>Image 1</h3>
+			    <p>Text of image 1.</p>
+		    </div>
+		    <div id="pic2">
+			    <img src="https://unsplash.it/g/500/350" height="350" width="500" alt="Image 2">
+			    <a class="previous" href="#pic1">&lt;</a>
+			    <a class="next" href="#pic3">&gt;</a>
+			    <h3>Image 2</h3>
+			    <p>Text of image 2.</p>
+		    </div>
+		    <div id="pic3">
+			    <img src="https://unsplash.it/g/500/350?random" height="350" width="500" alt="Image 3">
+			    <a class="previous" href="#pic2">&lt;</a>
+			    <a class="next" href="#pic4">&gt;</a>
+			    <h3>Image 3</h3>
+			    <p>Text of image 3.</p>
+		    </div>
+		    <div id="pic4">
+			    <img src="https://unsplash.it/g/500/350" height="350" width="500" alt="Image 4">
+			    <a class="previous" href="#pic3">&lt;</a>
+			    <a class="next" href="#pic5">&gt;</a>
+			    <h3>Image 4</h3>
+			    <p>Text of image 4.</p>
+		    </div>
+		    <div id="pic5">
+			    <img src="https://unsplash.it/g/500/350?random" height="350" width="500" alt="Image 5">
+			    <a class="previous" href="#pic4">&lt;</a>
+			    <a class="next" href="#pic1">&gt;</a>
+			    <h3>Image 5</h3>
+			    <p>Text of image 5.</p>
+		    </div>
+	    </div>
+	</div>
 
 
 </html>
